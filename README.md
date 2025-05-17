@@ -1,22 +1,41 @@
-# 📊 Analisi Relazionale Vendite e Clienti (SQL + Python)
+# 📊 Analisi Relazionale Vendite e Clienti con SQL + Python
 
-Progetto completo per analisi vendite su database relazionale utilizzando:
+Analisi completa su un database relazionale contenente informazioni di vendite e clienti.  
+Il progetto mostra l’intero flusso di lavoro da dati grezzi a insight utilizzabili per decisioni aziendali.
 
-- SQLite (DB locale)
-- SQL per interrogazione dati
-- Python + Pandas per analisi
-- Matplotlib per visualizzazioni
+---
 
-## 🔧 Struttura progetto
+## 🚀 Tecnologie utilizzate
 
-- `db_vendite.sql`: script SQL per creare il database
-- `vendite.db`: file SQLite generato
-- `analisi_sql_python.ipynb`: notebook con query SQL + analisi + grafici
-- 3 grafici esportati in PNG
+- **SQLite** – database relazionale leggero
+- **SQL** – query con JOIN e aggregazioni
+- **Python (Pandas)** – manipolazione e analisi dati
+- **Matplotlib** – grafici professionali (bar, line)
 
-## 📈 Cosa contiene
+---
 
-- JOIN tra tabelle `vendite` e `clienti`
-- Calcolo ricavi per cliente, prodotto, giorno
-- Visualizzazioni professionali
-- Conclusioni con insight pronti all’uso aziendale
+## 📁 File del progetto
+
+- `db_vendite.sql` – script SQL per creare e popolare il database
+- `vendite.db` – database SQLite generato
+- `analisi_vendite.ipynb` – notebook con query SQL, analisi e grafici
+- `grafico_*.png` – 3 grafici salvati
+- `README.md` – descrizione del progetto
+
+---
+
+## 📈 Analisi effettuate
+
+- Ricavi totali per **cliente**
+- Ricavi totali per **prodotto**
+- Ricavi totali per **giorno**
+- Visualizzazioni chiare ed esportabili
+- Conclusioni finali con insight
+
+---
+
+## 📌 Insight principali
+
+- I clienti con maggiore spesa sono **Marco Gialli** e **Giulia Bianchi**
+- I prodotti con più ricavo sono **Yogurt** e **Uova**
+- L’analisi temporale mostra picchi di vendite utili per strategia promozionale
